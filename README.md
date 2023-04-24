@@ -21,7 +21,6 @@ ConsumerAndProducerRest
 #####  public RestTemplate rt(){
 #####   return new RestTemplate();
 #####  }
-
 ##### }
 
 ##### Autowire this RestTemplate(C) to make HTTP call from any class file.
@@ -33,6 +32,5 @@ ConsumerAndProducerRest
 ##### c.Define URL of producer application
 ##### d.Make HTTP call using Template method
 ##### e.Get Response as ResponseEntity<T> or direct Type
-##### f.print/use details.
-
+##### f.print/use details
 ##### =>Consumer application it needs only api EndPoint Details ,,,ie URL , Http method Header Params,Body inputs,outputs   details... etc
